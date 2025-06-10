@@ -1,4 +1,6 @@
 import { ReactNode } from 'react';
+import Navbar from '@/components/Navbar';
+import Footer from './Footer';
 
 type Props = {
   children: ReactNode;
@@ -7,13 +9,9 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="p-4 bg-blue-600 text-white">
-        <h1 className="text-xl font-bold">My Website</h1>
-      </header>
-      <main className="p-6">{children}</main>
-      <footer className="p-4 text-center text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} My Website
-      </footer>
+      <Navbar />
+      <main className="mt-16 md:mt-40">{children}</main>
+      <Footer />
     </div>
   );
 }
