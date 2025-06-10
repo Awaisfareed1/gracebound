@@ -2,6 +2,7 @@ import React from 'react'
 import DynamicBanner from '@/components/DynamicBanner'
 import ContactForm from '@/components/ContactForm'
 import ContactText from '@/components/ContactText'
+import ContactAlert from '@/components/ContactAlert'
 const ContactUs = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const ContactUs = () => {
       />
       <ContactText />
       <ContactForm />
+      <ContactAlert />
     </>
   )
 }

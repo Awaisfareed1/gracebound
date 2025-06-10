@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const HContactText = () => {
   return (
-    <section className="relative py-5 lg:py-20">
+    <section className="relative py-5 lg:py-20 ">
 
         <div className="responsive-container relative z-10 h-full  ">
           <div className="text-center w-full">
