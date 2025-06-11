@@ -20,7 +20,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about-us' },
+    { name: 'Services', path: '/services' },
+    { name: 'Admissions', path: '/admissions' },
     { name: 'Contact', path: '/contact-us' },
   ];
 
@@ -44,13 +45,13 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               <span className="text-sm hidden sm:inline">Connect with Us:</span>
               <div className="flex space-x-3">
-                <a href="#" aria-label="Facebook" className="hover:text-primary transition ease-in-out duration-300">
+                <a href="https://www.facebook.com/GraceAboundsNJ" target='_blank' aria-label="Facebook" className="hover:text-primary transition ease-in-out duration-300">
                   <FaFacebook size={18} />
                 </a>
-                <a href="#" aria-label="Twitter" className="hover:text-primary transition ease-in-out duration-300">
+                <a href="https://x.com/GraceAboundsNJ" target='_blank' aria-label="Twitter" className="hover:text-primary transition ease-in-out duration-300">
                   <FaTwitter size={18} />
                 </a>
-                <a href="#" aria-label="Instagram" className="hover:text-primary transition ease-in-out duration-300">
+                <a href="https://www.instagram.com/graceaboundsrecovery/" target='_blank' aria-label="Instagram" className="hover:text-primary transition ease-in-out duration-300">
                   <FaInstagram size={18} />
                 </a>
               </div>

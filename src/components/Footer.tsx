@@ -21,17 +21,14 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-primary transition">
+              <a href="https://www.facebook.com/GraceAboundsNJ" target='_blank' className="text-white hover:text-primary transition">
                 <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-primary transition">
+              <a href="https://x.com/GraceAboundsNJ" target='_blank' className="text-white hover:text-primary transition">
                 <FaTwitter size={20} />
               </a>
-              <a href="#" className="text-white hover:text-primary transition">
+              <a href="https://www.instagram.com/graceaboundsrecovery/" target='_blank' className="text-white hover:text-primary transition">
                 <FaInstagram size={20} />
-              </a>
-              <a href="#" className="text-white hover:text-primary transition">
-                <FaLinkedin size={20} />
               </a>
             </div>
           </div>
@@ -39,7 +36,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-3">
-              <li><Link href="/about-us" className="hover:text-primary transition">About Us</Link></li>
+              <li><Link href="/" className="hover:text-primary transition">Home</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition">Services</Link></li>
+              <li><Link href="/admissions" className="hover:text-primary transition">Admissions</Link></li>
               <li><Link href="/contact-us" className="hover:text-primary transition">Contact Us</Link></li>
             </ul>
           </div>
